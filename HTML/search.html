@@ -1,0 +1,44 @@
+<!--아래 검색어를 활용하여 네이버 뉴스, 카페 검색폼을 만들어주세요-->
+<!--
+    https://search.naver.com/search.naver?where=news&query=코로나&ds=2020.08.21&de=2020.08.23
+     [셀렉트]   where = news    (뉴스)
+                       article (카페)
+     [텍스트창] query - 검색어 
+     [텍스트창] ds - 시작일
+                de - 종료일
+-->
+<html>
+	<head>
+		<title> 네이버 검색하기 </title>
+	</head>
+	<body>
+            <form action="https://search.naver.com/search.naver" method="get">
+                    <label for="uri">검색어입력
+                        <input id="query" type="text" name="query"/>
+                    </label>
+                    <label>검색분류
+                        <select name="where">
+                            <option value="news">뉴스</option>
+                            <option value="article">카페</option>
+                        </select>
+                    </label>                
+                    <label>시작일 0000.00.00<input type="text" name="ds"/></label>
+                    <label>종료일 0000.00.00<input type="text" name="de"/></label>
+                    <input type="submit" value="검색"/>
+            </select>
+            </form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

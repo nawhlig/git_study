@@ -1,0 +1,46 @@
+<!DICTYPE html>
+<html>
+	<head>
+		<title> 테이블 병합 하기 </title>
+	</head>
+	<body>
+		<table border="1" width ="500" height="300" align = "center">
+                <thead>
+                        <tr> <th>순번</th> <th>이름</th> </tr>
+                </thead>
+                <tbody  align = "center">
+                        <tr> <td>1</td> <td>홍길동</td> </tr>
+                        <tr> <td>2</td> <td>이몽룡</td> </tr>
+                </tbody>
+                <tfoot align = "center">
+                        <tr> <td>총인원</td> <td>2명</td> </tr>
+                </tfoot>
+        </table> 5*5
+        <table border="1" width="500" height="300" align="center">
+                <tbody  align = "center">
+                        <tr>
+                                <td colspan="5">1</td>
+                        </tr>
+                        <tr>
+                                <td rowspan = "4">2-1</td>
+                                <td colspan="4">2-2</td>
+                        </tr>
+                        <tr> 
+                                <td>3-2</td>
+                                <td rowspan="2">3-3</td>
+                                <td>3-4</td>
+                                <td rowspan="3">3-5</td>
+                        </tr>
+                        <tr>
+                                <td>4-2</td>
+                                <td>4-4</td>
+                        </tr>
+                        <tr>
+                                <td colspan="2">5-2</td>
+                                <td>5-4</td>
+                        </tr>
+                </tbody>
+        </table>
+        <table>
+    </body>
+</html>

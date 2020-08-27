@@ -1,0 +1,49 @@
+<!DICTYPE html>
+<html>
+	<head>
+		<title> 레이아웃 연습 </title>
+        <style>
+                body {
+                    margin-left: 30.3%;
+                    margin-right: 30.3%;
+                    padding: 0;
+                }
+              
+                #layout_box_top {
+                    
+                    display:table;                  
+                }
+                
+                #box_top {
+                    display: table-cell;
+                    margin: 50 auto;
+                    background-color: yellow;
+                    border:solid 0.5px;
+                    box-sizing: border-box;
+                    width: 880px;
+                    height:100px;
+                    padding:0px;
+                    vertical-align: middle;
+                    text-align: center;
+                }
+
+                #box_left {
+                    position: relative;
+                    margin:50px 0px 0px 0px;                     
+                    background: white;
+                    box-sizing: border-box;
+                    width: 50px;
+                    height: 300px;
+                    padding: 60px;
+                    border:solid 0.5px;
+                }
+        </style>
+	</head>
+	<body>
+        <div id="layout_box_top">
+            <div id="box_top"> 안녕하세요 </div>
+        </div>
+		
+        <div id="box_left"> 왼쪽 </div>
+	</body>
+</html>
